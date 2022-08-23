@@ -1,5 +1,3 @@
-import React from "react";
+import { withProviders } from "./providers";
 
-export const App: React.FC = () => {
-  return <div>App</div>;
-};
+export const App = withProviders(() => <div>App</div>);
